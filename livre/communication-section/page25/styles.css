@@ -1,0 +1,62 @@
+.board {
+  position: relative;
+  background: url("../../../imgs/title-layout.png") no-repeat center center;
+  background-size: cover;
+  background-color: white;
+  width: 100%;
+  height: 50rem;
+  padding: 3rem 5rem;
+  margin: 1.5rem auto;
+  border: 0.625rem solid #00ccff;
+  border-radius: 2rem;
+  box-shadow: #72d8f1 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+  & img {
+    position: absolute;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+  }
+  & img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  & #ballons {
+    top: 20%;
+    right: 10%;
+    width: 12rem;
+  }
+  & #bougie {
+    bottom: 35%;
+    right: 31%;
+    width: 14rem;
+  }
+  & #gateau {
+    bottom: 25%;
+    right: 30%;
+    width: 13rem;
+  }
+  & #cadeau {
+    bottom: 30%;
+    left: 13%;
+    width: 10rem;
+  }
+  & #joyeux {
+    width: 12rem;
+    left: 38%;
+    top: 25%;
+  }
+}
+
+.images-container {
+  width: 100%;
+  height: 100%;
+  background: url("./imgs/1-1.png") no-repeat center center;
+  background-size: cover;
+}
